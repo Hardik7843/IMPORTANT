@@ -1,0 +1,30 @@
+Hello everyone in this article you will be introduced to commands used for working with virtualenv. this tutorial covers everything right from the installation to activation\deactivation of virtualenv
+1. How to install virtualenv ?
+=> type 
+	pip install virtualenv
+
+2. How to create new virtual environment ? with name 
+"myenv"
+=> Windows
+	virtualenv myenv
+After successfull execution you will get one folder named 'myenv' in current directory.
+
+3. How to activate virtualenv from windows powershell?
+=> type
+	 myenv\Scripts\activate.ps1
+after successfull exectution you will observe the name of your environment is written in brackets before promts.
+
+4. How to activate virtualenv from cmd or any terminal?
+=> type 
+	myenv\Scripts\activate.bat
+after successfull exectution you will observe the name of your environment is written in brackets before promts.
+
+5. How to deactivate virtualenv ?
+=> type 
+	deactivate
+after successfull exectution you will observe the name of your environment is removed now, before promts.
+
+6. How to activate virtualenv in MacOS/Linux?
+=> type 
+	source myvenv/bin/activate
+
