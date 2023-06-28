@@ -93,3 +93,7 @@ Matches the beginning of all words by any character listed between the square br
 ```
 SELECT name FROM student_tbl WHERE name REGEXP '^[ns]' ;
 ```
+
+Additional Reference:
+
+[Data School](https://dataschool.com/how-to-teach-people-sql/how-regex-works-in-sql/)
