@@ -71,7 +71,9 @@ Matches any character not listed between the square brackets.([^abc]): Gives all
 SELECT name FROM student_tbl WHERE name REGEXP '[^jz]' ;
 ```
 
-Matches the end of words[[:>:]]: Gives all the titles ending with character “ack”. Example – Black.
+Matches the end of words[[:>:]]: Gives all the titles ending with character “ack”. Example – Black.  
+[Refer this](https://stackoverflow.com/questions/59998409/error-code-3685-illegal-argument-to-a-regular-expression)
+Becaue sometimes it may throw error.
 ```
 SELECT title FROM movies_tbl WHERE REGEXP 'ack[[:>:]]';
 ``` 
