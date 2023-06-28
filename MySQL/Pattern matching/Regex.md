@@ -20,7 +20,13 @@ $	End of string
 [0-9]	match any digit from 0 through to 9.
 [[:<:]]	matches the beginning of words.
 [[:>:]]	matches the end of words.
-[:class:]	matches a character class i.e. [:alpha:] to match letters, [:space:] to match white space, [:punct:] is match punctuations and [:upper:] for upper class letters.
+
+[:class:] matches a character class i.e. 
+    [:alpha:] to match letters, 
+    [:space:] to match white space, 
+    [:punct:] is match punctuations and 
+    [:upper:] for upper class letters.
+
 p1|p2|p3	Alternation; matches any of the patterns p1, p2, or p3
 {n}	n instances of preceding element
 {m,n}	m through n instances of preceding element
