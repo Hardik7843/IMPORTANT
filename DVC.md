@@ -115,8 +115,9 @@ dvc init
 ```
 
 then run 
+
 ```
-dvc get https://github.com/Hardik7843/DataVersioning  <github path> -o <local path>
+dvc get <Git Hub URL> <github path> -o <local path>
 ```
 
 ![Alt text](image-2.png)
